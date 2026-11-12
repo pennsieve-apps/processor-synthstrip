@@ -1,5 +1,6 @@
 cff-version: "1.2.0"
-message: If you use this app, please cite it and the works it builds on, listed under references.
+message: >-
+  If you use this app, please cite the work it implements (preferred-citation), this release, and Pennsieve (RRID:SCR_021677); the other works it builds on are listed under references.
 type: software
 title: SynthStrip Skull Stripping
 abstract: Skull-strips T1-weighted brain MRI with SynthStrip (FreeSurfer), a learning-based tool that
@@ -16,6 +17,26 @@ keywords:
 - synthstrip
 - freesurfer
 - skull-stripping
+# The work this app implements; the release report's "How to cite" puts it first.
+preferred-citation:
+  type: article
+  title: 'SynthStrip: skull-stripping for any brain image'
+  authors:
+  - family-names: Hoopes
+    given-names: Andrew
+  - family-names: Mora
+    given-names: Jocelyn S.
+  - family-names: Dalca
+    given-names: Adrian V.
+  - family-names: Fischl
+    given-names: Bruce
+  - family-names: Hoffmann
+    given-names: Malte
+  year: 2022
+  journal: NeuroImage
+  volume: 260
+  start: '119474'
+  doi: 10.1016/j.neuroimage.2022.119474
 references:
 - type: article
   title: 'SynthStrip: skull-stripping for any brain image'
